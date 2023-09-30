@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1c2d35;
+    
+}
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+#topnav li {
+    float: left;
+  }
+  
+#topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #topnav li a:hover {
+    background-color: #111;
+  }
+#topnav .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 600%;
+    color: #abf5ff;
+    font-family: 'Pixelify Sans', cursive;
+
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .container img{
+    filter: blur(5px);
+  }
+  #main #download{
+    margin: 50px;
+    background-color: #798b94;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #main #download li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+#main #download li a {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    color: #b6b6b6;
+}
