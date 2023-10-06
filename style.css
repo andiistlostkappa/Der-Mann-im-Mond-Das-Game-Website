@@ -92,3 +92,11 @@ body{
   text-align: center;
   font-family: 'Pixelify Sans', cursive;
 }
+
+#main #Kontakt{
+  margin: 50px;
+  background-color: #798b94;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
