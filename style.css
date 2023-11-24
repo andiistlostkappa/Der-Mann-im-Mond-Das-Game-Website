@@ -106,4 +106,9 @@ body{
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  
+}
+#form form *{
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
